@@ -24,6 +24,13 @@ const scores = [
 
 // {console.log(newScores)}
 
+const sources = [0, 1, 2, 3]
+tmp = []
+for(let item of sources){
+  tmp.push(item*2)
+}
+
+sources.map(item =>(item*2))
 
 function App() {
 
