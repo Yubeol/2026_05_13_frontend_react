@@ -1,17 +1,12 @@
 import React from 'react'
 
-const scores = [
-  { 이름: "John", 국어: 90, 영어: 90, 수학: 80, 과학: 90 },
-  { 이름: "Peter", 국어: 90, 영어: 90, 수학: 80, 과학: 90 },
-  { 이름: "Susan", 국어: 90, 영어: 90, 수학: 80, 과학: 90 },
-  { 이름: "Sue", 국어: 90, 영어: 90, 수학: 80, 과학: 90 },
-]
+
 
 const sources = [0, 1, 2, 3]
 
 sources.map(item => (item * 2))
 
-function scoresTable() {
+function scoresTable({scores}) {
   return (
 
     <table border="1">
