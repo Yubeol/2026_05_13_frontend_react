@@ -2,6 +2,7 @@ import './App.css'
 import ScorePage from './pages/ScorePage'
 import UserPage from './pages/UserPage'
 import EmployeePage from './pages/EmployeePage'
+import HeaderBar from './components/HeaderBar'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 const style = {
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <HeaderBar/>  
       <Routes>
         <Route path="/score" element={<ScorePage />} />
         <Route path="/user" element={<UserPage />} />
