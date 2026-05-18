@@ -1,12 +1,8 @@
 import React from 'react'
 
+console.log("Hello ScoresTable")
 
-
-const sources = [0, 1, 2, 3]
-
-sources.map(item => (item * 2))
-
-function scoresTable({scores}) {
+function ScoresTable({scores}) {
   return (
 
     <table border="1">
@@ -36,4 +32,4 @@ function scoresTable({scores}) {
   )
 }
 
-export default scoresTable
+export default ScoresTable
