@@ -2,7 +2,7 @@ import React from 'react'
 import InfoTable from '../components/employee/InfoTable'
 import Form from '../components/employee/Form'
 
-function Employee() {
+function EmployeePage() {
   return (
     <>
       <InfoTable/>
@@ -11,4 +11,4 @@ function Employee() {
   )
 }
 
-export default Employee
+export default EmployeePage

@@ -1,7 +1,7 @@
 import './App.css'
 import ScorePage from './pages/ScorePage'
 import UserPage from './pages/UserPage'
-import Employee from './pages/Employee'
+import EmployeePage from './pages/EmployeePage'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 const style = {
@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/score" element={<ScorePage />} />
         <Route path="/user" element={<UserPage />} />
-        <Route path="/employee" element={<Employee />} />
+        <Route path="/employee" element={<EmployeePage />} />
         
       </Routes>
     </BrowserRouter>
